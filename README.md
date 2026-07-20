@@ -103,10 +103,10 @@ The new conversation script demonstrates:
 3. **Week 3-4:** Analyze actual vs. expected performance
 4. **Month 2:** Expand to other segments (1-2 РБ, Promises)
 
----
+
 
 ## Project Structure
-
+```
 ab-test-conversation-scripts/
 ├── README.md                          # This file
 ├── requirements.txt                   # Python dependencies
@@ -267,15 +267,6 @@ SE = √(s₁²/n₁ + s₂²/n₂)
 ---
 
 
-## Author
-
-**Serik Karybayev**  
-Data Analyst |  Data Scientist
-
-- GitHub: [@your-username](https://https://github.com/SerikKarybaev)
-- LinkedIn: [Your Profile](https://www.linkedin.com/in/serik-karybaev-29a544116)
-
----
 
 ## 📄 License
 
