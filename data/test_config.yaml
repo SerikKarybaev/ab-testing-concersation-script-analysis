@@ -1,0 +1,39 @@
+
+# A/B Test Configuration
+experiment:
+  name: "Conversation Script Optimization"
+  segment: "3-6 НБ"
+  start_date: "2025-02-01"
+  end_date: "2025-02-28"
+  
+variants:
+  control:
+    name: "Control (Current Script)"
+    description: "Existing conversation script with standard flow"
+    
+  treatment:
+    name: "Treatment (Optimized Script)"
+    description: "New script with shorter intro, direct value proposition"
+    changes:
+      - "Reduced greeting from 15s to 5s"
+      - "Added urgency cue in first 10 seconds"
+      - "Simplified payment options explanation"
+      - "Added social proof element"
+
+metrics:
+  primary:
+    name: "Result Rate"
+    description: "% of calls resulting in payment promise"
+    
+  secondary:
+    - name: "Contact Rate"
+      description: "% of calls where client answered"
+    - name: "Agreement Rate"
+      description: "% of results with formal agreement"
+    - name: "Call Duration"
+      description: "Average call length in seconds"
+
+statistical_params:
+  alpha: 0.05
+  power: 0.8
+  minimum_detectable_effect: 0.02
